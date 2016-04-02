@@ -1,0 +1,43 @@
+{
+  "name": "Feeder",
+  "description": "Feeder de noticias",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mpampin/news-feeder",
+  "author": {
+    "name": "MPampin",
+    "email": "mauro.pampin@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mpampin/news-feeder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpampin/news-feeder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mpampin/news-feeder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/Feeder",
+  "engines": {
+    "node": "5.0.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "dependencies": {
+    "deferred": "^0.7.5",
+    "feedparser": "^1.1.4",
+    "mongodb": "^2.1.11",
+    "through2": "^2.0.1"
+  }
+}
